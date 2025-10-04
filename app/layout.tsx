@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Livestock Hauling Quotes | American Livestock Hauling",
   description: "Get instant quotes from licensed, insured livestock haulers nationwide. Fast, reliable cattle hauling, horse transport, and livestock shipping services.",
-  metadataBase: new URL('https://wehavllivestock.com'),
+  metadataBase: new URL('https://wehaullivestock.com'),
 };
 
 export default function RootLayout({
