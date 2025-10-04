@@ -222,7 +222,7 @@ export default function Home() {
                 Get Your Free Quote
               </h2>
               <p className="text-lg sm:text-xl text-neutral-700">
-                Tell us about your haul and we'll provide a competitive quote
+                Tell us about your haul and we&apos;ll provide a competitive quote
               </p>
             </div>
             <QuoteForm />
@@ -278,7 +278,7 @@ export default function Home() {
               <article>
                 <h3 className="text-2xl font-bold mb-4 text-dark-text">Cattle Hauling Services</h3>
                 <p className="text-neutral-700 mb-4">
-                  We specialize in safe, reliable cattle transport across the United States. Whether you're moving a small herd to pasture or shipping cattle to market, we understand the unique requirements of cattle hauling. We handle beef cattle, dairy cows, breeding stock, and calves with professional care.
+                  We specialize in safe, reliable cattle transport across the United States. Whether you&apos;re moving a small herd to pasture or shipping cattle to market, we understand the unique requirements of cattle hauling. We handle beef cattle, dairy cows, breeding stock, and calves with professional care.
                 </p>
                 <p className="text-neutral-700">
                   Our cattle transport service includes proper ventilation, appropriate spacing, and experienced drivers who know how to handle livestock. We meet all DOT and animal welfare requirements for safe cattle hauling.
@@ -298,7 +298,7 @@ export default function Home() {
               <article>
                 <h3 className="text-2xl font-bold mb-4 text-dark-text">Sheep, Goat, and Hog Hauling</h3>
                 <p className="text-neutral-700 mb-4">
-                  We haul all types of livestock including sheep, goats, and hogs. Our trailers feature proper bedding, ventilation, and appropriate load density for each species. Whether you're shipping to market, moving breeding stock, or relocating your herd, we have the equipment and expertise.
+                  We haul all types of livestock including sheep, goats, and hogs. Our trailers feature proper bedding, ventilation, and appropriate load density for each species. Whether you&apos;re shipping to market, moving breeding stock, or relocating your herd, we have the equipment and expertise.
                 </p>
                 <p className="text-neutral-700">
                   Small livestock hauling requires knowledge of animal behavior and proper handling techniques. We specialize in safe, humane transport for sheep, goats, and hogs.

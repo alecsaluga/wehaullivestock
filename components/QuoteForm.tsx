@@ -3,6 +3,12 @@
 import { useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 
+declare global {
+  interface Window {
+    dataLayer?: Record<string, unknown>[];
+  }
+}
+
 interface FormData {
   name: string;
   phone: string;
@@ -177,8 +183,8 @@ export default function QuoteForm() {
       }
 
       // Fire GTM event
-      if (typeof window !== 'undefined' && (window as any).dataLayer) {
-        (window as any).dataLayer.push({
+      if (typeof window !== 'undefined' && window.dataLayer) {
+        window.dataLayer.push({
           event: 'generate_lead',
           species: formData.species,
           quantity: formData.quantity,
